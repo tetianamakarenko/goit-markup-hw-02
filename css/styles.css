@@ -1,10 +1,185 @@
-body {
-    background-color: #FFFFFF;}
+:root {
+--first-logo-color: #4D5AE5;
+--navigation-color: #2E2F42;
+--contacts-color: #434455;
+--first-title-color: #FFFFFF;
+--second-title-color: #2E2F42;
+--first-btn-color: #ffffff;
+--main-text-color: #434455;
+--footer-text-color: #E7E9FC;
+--accent-color: #4D5AE5;
+}
 
-.page-header: {}
-.site-nav {color: #2E2F42;}
-.site-nav:hover {color: #4D5AE5}
-.site-nav:focus {color: #434455;}
-.contacts {color: #2E2F42;}
-.contacts:hover {color: #4D5AE5}
-.contacts:focus {color: #434455;}
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', 'sans-serif';
+    font-style: normal;
+    font-weight: 400;
+    color: #434455;
+}
+
+.list {list-style: none}
+.link {text-decoration: none;}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.page-header {}
+
+.logo-first-part {
+    color: var(--first-logo-color);
+    width: 44px;
+    height: 24px;
+    font-family: 'Raleway' 'sans-serif';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(24/18)
+    letter-spacing: 0.03em;
+}
+.logo-second-part {color: var(--navigation-color);}
+
+/* Navigation */
+
+.page-navigation {}
+
+.header-list .link {
+    color: var(--navigation-color);
+    width: 48px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: calc(24/16)
+    letter-spacing: 0.02em;
+}
+.header-list .link:hover {color: var(--main-text-color)}
+.header-list .link:focus {color: var(--accent-color);}
+
+.header-list .link.currect {}
+
+.contacts .link {
+font-size: 16px;
+line-height: calc(24/16);
+letter-spacing: 0.02em;
+color: #434455;}
+.contacts .link:hover {color: var(--accent-color)}
+
+/* Tittle in the center */
+.title-title {
+width: 492px;
+height: 120px;
+font-weight: 600;
+font-size: 56px;
+line-height: 1.1;
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--first-title-color);
+background-color: #2E2F42;
+}
+
+
+cursor: pointer;
+
+.btn-primary {
+    width: 106px;
+    height: 19px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: calc(19/16);
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--first-btn-color);
+    background-color: #4D5AE5;
+}
+
+.btn-secondary {
+
+}
+
+.btn:hover {background-color: #4D5AE5;}
+.btn:focus {background-color: #404BBF;}
+
+/* H2 */
+.company-title .pictures-title .team-title {
+width: 322px;
+height: 40px;
+left: 559px;
+top: 1019px;
+font-weight: 600;
+font-size: 36px;
+line-height: calc(40/36);
+text-align: center;
+letter-spacing: 0.02em;
+color: var(--second-title-color);}
+
+/* Sections with a short description */
+.company {}
+.company-title {}
+.company-list {}
+.company-paragraph-title {
+    width: 264px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: calc(24/20);
+    letter-spacing: 0.02em;
+    color: var(--second-title-color);
+}
+.company-paragraph {
+    width: 264px;
+    height: 72px;
+    font-size: 16px;
+    line-height: calc(24/16);
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+
+
+.team {
+    background-color: #F4F4FD;
+}
+.team-members {}
+.team-member-name {
+    width: 135px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: calc(24/20);
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--second-title-color);
+}
+.team-paragraph {
+    width: 128px;
+    height: 24px;
+    font-size: 16px;
+    line-height: calc(24/16)
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var (--main-text-color)
+}
+.footer {
+    background-color: #2E2F42;
+}
+.footer-logo-second-part {
+    color: #F4F4FD;
+}
+.footer-paragraph {
+    width: 264px;
+    height: 72px;
+    left: 156px;
+    top: 2421px;
+    font-size: 16px;
+    line-height: calc(24/16);
+    letter-spacing: 0.02em;
+    color: var(--footer-text-color);
+}
