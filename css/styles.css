@@ -57,7 +57,7 @@ body {
     color: var(--navigation-color);
     width: 48px;
     height: 24px;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 16px;
     line-height: calc(24/16);
     letter-spacing: 0.02em;
@@ -78,7 +78,7 @@ color: var(--contacts-color);}
 .title-title {
 width: 492px;
 height: 120px;
-font-weight: 600;
+font-weight: 700;
 font-size: 56px;
 line-height: calc(60/56);
 text-align: center;
@@ -93,7 +93,7 @@ background-color: var(--navigation-color);
     width: 106px;
     height: 19px;
     font-family: inherit;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 16px;
     line-height: calc(19/16);
     display: flex;
@@ -120,7 +120,7 @@ background-color: var(--navigation-color);
 .btn-secondary {
     font-family: inherit;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.5;
     display: flex;
@@ -141,7 +141,7 @@ width: 322px;
 height: 40px;
 left: 559px;
 top: 1019px;
-font-weight: 600;
+font-weight: 700;
 font-size: 36px;
 line-height: calc(40/36);
 text-align: center;
@@ -153,7 +153,7 @@ color: var(--second-title-color);}
 .company-paragraph-title {
     width: 264px;
     height: 24px;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: calc(24/20);
     letter-spacing: 0.02em;
@@ -176,7 +176,7 @@ color: var(--second-title-color);}
 .team-member-name {
     width: 135px;
     height: 24px;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: calc(24/20);
     text-align: center;
@@ -196,7 +196,7 @@ color: var(--second-title-color);}
 .service-title {
     width: 291px;
     height: 24px;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: calc(24/20);
     letter-spacing: 0.02em;
